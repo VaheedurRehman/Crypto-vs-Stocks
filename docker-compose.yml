@@ -1,0 +1,43 @@
+version: '3'
+services:
+  # 1. The Airflow Web Server (The UI you click around in)
+  airflow-webserver:
+    build: .                # Tells Docker to use your custom Dockerfile from Step 1
+    command: webserver
+    ports:
+      - "8081:8080"
+    volumes:
+      - ./dags:/opt/airflow/dags   # Maps your local dags folder to the container
+      - ./dbt:/opt/airflow/dbt     # Maps your local dbt folder (CRITICAL for your project)
+      - ./logs:/opt/airflow/logs
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW__CORE__FERNET_KEY=46BKJoQYlPPOexq0OhDZnIlNepKFf87WFwLbfzqDDho=
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+    depends_on:
+      - postgres
+
+  # 2. The Airflow Scheduler (The brain that triggers jobs)
+  airflow-scheduler:
+    build: .
+    command: scheduler
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./dbt:/opt/airflow/dbt     # MUST match the webserver mapping
+      - ./logs:/opt/airflow/logs
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW__CORE__FERNET_KEY=46BKJoQYlPPOexq0OhDZnIlNepKFf87WFwLbfzqDDho=
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+    depends_on:
+      - postgres
+
+  # 3. The Database (Where Airflow stores its own history)
+  postgres:
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=airflow
+      - POSTGRES_PASSWORD=airflow
+      - POSTGRES_DB=airflow

@@ -1,0 +1,42 @@
+[2025-12-08T06:06:10.306+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: market_ml_forecasting.generate_forecast manual__2025-12-08T05:58:24.477815+00:00 [queued]>
+[2025-12-08T06:06:10.310+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: market_ml_forecasting.generate_forecast manual__2025-12-08T05:58:24.477815+00:00 [queued]>
+[2025-12-08T06:06:10.311+0000] {taskinstance.py:1359} INFO - Starting attempt 2 of 2
+[2025-12-08T06:06:10.316+0000] {taskinstance.py:1380} INFO - Executing <Task(SnowflakeOperator): generate_forecast> on 2025-12-08 05:58:24.477815+00:00
+[2025-12-08T06:06:10.320+0000] {standard_task_runner.py:57} INFO - Started process 2129 to run task
+[2025-12-08T06:06:10.324+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'market_ml_forecasting', 'generate_forecast', 'manual__2025-12-08T05:58:24.477815+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/ml_forecast_dag.py', '--cfg-path', '/tmp/tmp8u7hqra7']
+[2025-12-08T06:06:10.335+0000] {standard_task_runner.py:85} INFO - Job 40: Subtask generate_forecast
+[2025-12-08T06:06:10.364+0000] {logging_mixin.py:151} WARNING - /home/***/.local/lib/python3.9/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-12-08T06:06:10.422+0000] {task_command.py:415} INFO - Running <TaskInstance: market_ml_forecasting.generate_forecast manual__2025-12-08T05:58:24.477815+00:00 [running]> on host 9b5a184fb48c
+[2025-12-08T06:06:10.503+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='market_ml_forecasting' AIRFLOW_CTX_TASK_ID='generate_forecast' AIRFLOW_CTX_EXECUTION_DATE='2025-12-08T05:58:24.477815+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-08T05:58:24.477815+00:00'
+[2025-12-08T06:06:10.505+0000] {sql.py:274} INFO - Executing: 
+            BEGIN
+                CALL ANALYTICS.market_price_forecaster!FORECAST(FORECASTING_PERIODS => 14);
+                
+                CREATE OR REPLACE TABLE ANALYTICS.market_forecast_results AS
+                SELECT 
+                    series as symbol,
+                    ts as forecast_date,
+                    forecast as predicted_close
+                FROM TABLE(RESULT_SCAN(LAST_QUERY_ID()));
+            END;
+        
+[2025-12-08T06:06:10.544+0000] {base.py:73} INFO - Using connection ID 'snowflake_conn' for task execution.
+[2025-12-08T06:06:10.556+0000] {base.py:73} INFO - Using connection ID 'snowflake_conn' for task execution.
+[2025-12-08T06:06:10.557+0000] {connection.py:521} INFO - Snowflake Connector for Python Version: 3.18.0, Python Version: 3.9.18, Platform: Linux-6.10.14-linuxkit-aarch64-with-glibc2.31
+[2025-12-08T06:06:10.561+0000] {connection.py:1464} INFO - Connecting to GLOBAL Snowflake domain
+[2025-12-08T06:06:14.322+0000] {sql.py:418} INFO - Running statement: BEGIN
+                CALL ANALYTICS.market_price_forecaster!FORECAST(FORECASTING_PERIODS => 14);
+                
+                CREATE OR REPLACE TABLE ANALYTICS.market_forecast_results AS
+                SELECT 
+                    series as symbol,
+                    ts as forecast_date,
+                    forecast as predicted_close
+                FROM TABLE(RESULT_SCAN(LAST_QUERY_ID()));
+            END, parameters: None
+[2025-12-08T06:06:56.420+0000] {sql.py:427} INFO - Rows affected: 1
+[2025-12-08T06:06:56.425+0000] {snowflake.py:427} INFO - Rows affected: 1
+[2025-12-08T06:06:56.425+0000] {snowflake.py:428} INFO - Snowflake query id: 01c0e82e-0307-38f6-0018-7f63000292d2
+[2025-12-08T06:06:56.705+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=market_ml_forecasting, task_id=generate_forecast, execution_date=20251208T055824, start_date=20251208T060610, end_date=20251208T060656
+[2025-12-08T06:06:56.755+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-12-08T06:06:56.771+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

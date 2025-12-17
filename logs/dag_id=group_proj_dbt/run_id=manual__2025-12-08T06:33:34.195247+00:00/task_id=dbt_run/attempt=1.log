@@ -1,0 +1,39 @@
+[2025-12-08T06:33:35.490+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: group_proj_dbt.dbt_run manual__2025-12-08T06:33:34.195247+00:00 [queued]>
+[2025-12-08T06:33:35.498+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: group_proj_dbt.dbt_run manual__2025-12-08T06:33:34.195247+00:00 [queued]>
+[2025-12-08T06:33:35.498+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2025-12-08T06:33:35.508+0000] {taskinstance.py:1380} INFO - Executing <Task(BashOperator): dbt_run> on 2025-12-08 06:33:34.195247+00:00
+[2025-12-08T06:33:35.518+0000] {standard_task_runner.py:57} INFO - Started process 3037 to run task
+[2025-12-08T06:33:35.521+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'group_proj_dbt', 'dbt_run', 'manual__2025-12-08T06:33:34.195247+00:00', '--job-id', '46', '--raw', '--subdir', 'DAGS_FOLDER/group_proj_dbt.py', '--cfg-path', '/tmp/tmp70bs2nd5']
+[2025-12-08T06:33:35.524+0000] {standard_task_runner.py:85} INFO - Job 46: Subtask dbt_run
+[2025-12-08T06:33:35.532+0000] {logging_mixin.py:151} WARNING - /home/***/.local/lib/python3.9/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-12-08T06:33:35.550+0000] {task_command.py:415} INFO - Running <TaskInstance: group_proj_dbt.dbt_run manual__2025-12-08T06:33:34.195247+00:00 [running]> on host 9b5a184fb48c
+[2025-12-08T06:33:35.600+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='calvin' AIRFLOW_CTX_DAG_ID='group_proj_dbt' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2025-12-08T06:33:34.195247+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-08T06:33:34.195247+00:00'
+[2025-12-08T06:33:35.602+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-12-08T06:33:35.602+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '/home/***/.local/bin/dbt run --profiles-dir /opt/***/dbt --project-dir /opt/***/dbt']
+[2025-12-08T06:33:35.608+0000] {subprocess.py:86} INFO - Output:
+[2025-12-08T06:33:37.305+0000] {subprocess.py:93} INFO - [0m06:33:37  Running with dbt=1.11.0-b3
+[2025-12-08T06:33:37.988+0000] {subprocess.py:93} INFO - [0m06:33:37  Registered adapter: snowflake=1.10.2
+[2025-12-08T06:33:38.152+0000] {subprocess.py:93} INFO - [0m06:33:38  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2025-12-08T06:33:38.152+0000] {subprocess.py:93} INFO - There are 2 unused configuration paths:
+[2025-12-08T06:33:38.152+0000] {subprocess.py:93} INFO - - models.stock_crypto_project.input
+[2025-12-08T06:33:38.153+0000] {subprocess.py:93} INFO - - models.stock_crypto_project.output
+[2025-12-08T06:33:38.248+0000] {subprocess.py:93} INFO - [0m06:33:38  Found 3 models, 2 sources, 492 macros
+[2025-12-08T06:33:38.249+0000] {subprocess.py:93} INFO - [0m06:33:38
+[2025-12-08T06:33:38.250+0000] {subprocess.py:93} INFO - [0m06:33:38  Concurrency: 1 threads (target='dev')
+[2025-12-08T06:33:38.250+0000] {subprocess.py:93} INFO - [0m06:33:38
+[2025-12-08T06:33:41.544+0000] {subprocess.py:93} INFO - [0m06:33:41  1 of 3 START sql view model ANALYTICS.stg_market_prices ........................ [RUN]
+[2025-12-08T06:33:41.949+0000] {subprocess.py:93} INFO - [0m06:33:41  1 of 3 OK created sql view model ANALYTICS.stg_market_prices ................... [[32mSUCCESS 1[0m in 0.40s]
+[2025-12-08T06:33:41.952+0000] {subprocess.py:93} INFO - [0m06:33:41  2 of 3 START sql table model ANALYTICS.final_prediction ........................ [RUN]
+[2025-12-08T06:33:43.672+0000] {subprocess.py:93} INFO - [0m06:33:43  2 of 3 OK created sql table model ANALYTICS.final_prediction ................... [[32mSUCCESS 1[0m in 1.72s]
+[2025-12-08T06:33:43.674+0000] {subprocess.py:93} INFO - [0m06:33:43  3 of 3 START sql view model ANALYTICS.market_analysis .......................... [RUN]
+[2025-12-08T06:33:44.078+0000] {subprocess.py:93} INFO - [0m06:33:44  3 of 3 OK created sql view model ANALYTICS.market_analysis ..................... [[32mSUCCESS 1[0m in 0.40s]
+[2025-12-08T06:33:44.204+0000] {subprocess.py:93} INFO - [0m06:33:44
+[2025-12-08T06:33:44.205+0000] {subprocess.py:93} INFO - [0m06:33:44  Finished running 1 table model, 2 view models in 0 hours 0 minutes and 5.95 seconds (5.95s).
+[2025-12-08T06:33:44.257+0000] {subprocess.py:93} INFO - [0m06:33:44
+[2025-12-08T06:33:44.258+0000] {subprocess.py:93} INFO - [0m06:33:44  [32mCompleted successfully[0m
+[2025-12-08T06:33:44.259+0000] {subprocess.py:93} INFO - [0m06:33:44
+[2025-12-08T06:33:44.259+0000] {subprocess.py:93} INFO - [0m06:33:44  Done. PASS=3 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=3
+[2025-12-08T06:33:45.103+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-12-08T06:33:45.140+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=group_proj_dbt, task_id=dbt_run, execution_date=20251208T063334, start_date=20251208T063335, end_date=20251208T063345
+[2025-12-08T06:33:45.188+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-12-08T06:33:45.223+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

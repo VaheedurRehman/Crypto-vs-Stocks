@@ -1,0 +1,1062 @@
+[0m05:27:32.894515 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff7bffccd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff7beb4e80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff7b0c4130>]}
+
+
+============================== 05:27:32.899341 | 2db44a3b-aff4-49c3-af2a-bbb37008363f ==============================
+[0m05:27:32.899341 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m05:27:32.900294 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'invocation_command': 'dbt run --profiles-dir /opt/airflow/dbt --project-dir /opt/airflow/dbt', 'warn_error': 'None', 'profiles_dir': '/opt/airflow/dbt', 'target_path': 'None', 'introspect': 'True', 'partial_parse': 'True', 'empty': 'False', 'static_parser': 'True', 'debug': 'False', 'quiet': 'False', 'no_print': 'None', 'log_path': '/opt/airflow/dbt/logs', 'indirect_selection': 'eager', 'use_colors': 'True', 'cache_selected_only': 'False', 'log_cache_events': 'False', 'write_json': 'True', 'log_format': 'default', 'version_check': 'True'}
+[0m05:27:32.902893 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'stock_crypto_profile'
+[0m05:27:32.903764 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.042305626, "process_in_blocks": "0", "process_kernel_time": 0.21409, "process_mem_max_rss": "91584", "process_out_blocks": "2", "process_user_time": 0.926391}
+[0m05:27:32.904083 [debug] [MainThread]: Command `dbt run` failed at 05:27:32.904033 after 0.04 seconds
+[0m05:27:32.904296 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff7bffccd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff7b0d88e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff7b0d8610>]}
+[0m05:27:32.904495 [debug] [MainThread]: Flushing usage events
+[0m05:27:33.306460 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:27:41.252983 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffade3cca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffad0ca9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffadc47640>]}
+
+
+============================== 05:27:41.257082 | ba0ede3d-3fec-488d-b2f7-5fcfb2da526d ==============================
+[0m05:27:41.257082 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m05:27:41.257424 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'profiles_dir': '/opt/airflow/dbt', 'log_path': '/opt/airflow/dbt/logs', 'quiet': 'False', 'log_format': 'default', 'partial_parse': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'write_json': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'version_check': 'True', 'no_print': 'None', 'debug': 'False', 'printer_width': '80', 'invocation_command': 'dbt run --profiles-dir /opt/airflow/dbt --project-dir /opt/airflow/dbt', 'cache_selected_only': 'False', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'target_path': 'None'}
+[0m05:27:41.258968 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'stock_crypto_profile'
+[0m05:27:41.259476 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.035101876, "process_in_blocks": "0", "process_kernel_time": 0.123247, "process_mem_max_rss": "92100", "process_out_blocks": "2", "process_user_time": 0.885777}
+[0m05:27:41.259907 [debug] [MainThread]: Command `dbt run` failed at 05:27:41.259855 after 0.04 seconds
+[0m05:27:41.260152 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffade3cca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffad7248b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffaced1fa0>]}
+[0m05:27:41.260374 [debug] [MainThread]: Flushing usage events
+[0m05:27:41.602280 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:29:50.626226 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff85dbcca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff8504a9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff8504a1f0>]}
+
+
+============================== 05:29:50.631645 | aeca8f75-e36d-4429-bf29-5ee889481364 ==============================
+[0m05:29:50.631645 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m05:29:50.632090 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'send_anonymous_usage_stats': 'True', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt run --profiles-dir /opt/airflow/dbt --project-dir /opt/airflow/dbt', 'write_json': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'warn_error': 'None', 'introspect': 'True', 'indirect_selection': 'eager', 'partial_parse': 'True', 'fail_fast': 'False', 'static_parser': 'True', 'target_path': 'None', 'cache_selected_only': 'False', 'use_colors': 'True', 'log_format': 'default', 'log_path': '/opt/airflow/dbt/logs', 'log_cache_events': 'False', 'version_check': 'True', 'profiles_dir': '/opt/airflow/dbt', 'quiet': 'False', 'debug': 'False'}
+[0m05:29:51.514470 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'aeca8f75-e36d-4429-bf29-5ee889481364', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff65e5cbb0>]}
+[0m05:29:51.549427 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'aeca8f75-e36d-4429-bf29-5ee889481364', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff65e93280>]}
+[0m05:29:51.550258 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m05:29:51.635411 [debug] [MainThread]: checksum: e63134dccc1251cfb572caf0e4aa952f030c125ee3634f3bf2c0a2e1bb6ae349, vars: {}, profile: , target: , version: 1.11.0b3
+[0m05:29:51.636137 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m05:29:51.636847 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'aeca8f75-e36d-4429-bf29-5ee889481364', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff65c405e0>]}
+[0m05:29:52.251546 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.stock_crypto_project.stg_market_prices' (models/stg_market_prices.sql) depends on a source named 'raw_data.market_prices' which was not found
+[0m05:29:52.253043 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 1.6639552, "process_in_blocks": "8208", "process_kernel_time": 1.004109, "process_mem_max_rss": "188704", "process_out_blocks": "5", "process_user_time": 2.636421}
+[0m05:29:52.253496 [debug] [MainThread]: Command `dbt run` failed at 05:29:52.253424 after 1.66 seconds
+[0m05:29:52.253761 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff85dbcca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff82225fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff82225f70>]}
+[0m05:29:52.254036 [debug] [MainThread]: Flushing usage events
+[0m05:29:52.650762 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:29:56.443050 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff822fcca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff8158af10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff821072e0>]}
+
+
+============================== 05:29:56.446932 | f195537e-b355-487c-81fa-1aead0f7f2d4 ==============================
+[0m05:29:56.446932 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m05:29:56.450765 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'invocation_command': 'dbt run --profiles-dir /opt/airflow/dbt --project-dir /opt/airflow/dbt', 'log_format': 'default', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'use_experimental_parser': 'False', 'warn_error': 'None', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'no_print': 'None', 'fail_fast': 'False', 'static_parser': 'True', 'cache_selected_only': 'False', 'log_cache_events': 'False', 'printer_width': '80', 'debug': 'False', 'log_path': '/opt/airflow/dbt/logs', 'profiles_dir': '/opt/airflow/dbt', 'empty': 'False', 'quiet': 'False', 'indirect_selection': 'eager', 'introspect': 'True', 'target_path': 'None'}
+[0m05:29:56.875756 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f195537e-b355-487c-81fa-1aead0f7f2d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff83de8880>]}
+[0m05:29:56.904391 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f195537e-b355-487c-81fa-1aead0f7f2d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff623a2c10>]}
+[0m05:29:56.904878 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m05:29:56.966703 [debug] [MainThread]: checksum: e63134dccc1251cfb572caf0e4aa952f030c125ee3634f3bf2c0a2e1bb6ae349, vars: {}, profile: , target: , version: 1.11.0b3
+[0m05:29:56.967526 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m05:29:56.967979 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'f195537e-b355-487c-81fa-1aead0f7f2d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff621ca7c0>]}
+[0m05:29:57.502978 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.stock_crypto_project.stg_market_prices' (models/stg_market_prices.sql) depends on a source named 'raw_data.market_prices' which was not found
+[0m05:29:57.504514 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 1.0914153, "process_in_blocks": "0", "process_kernel_time": 0.260956, "process_mem_max_rss": "186688", "process_out_blocks": "5", "process_user_time": 2.519543}
+[0m05:29:57.505022 [debug] [MainThread]: Command `dbt run` failed at 05:29:57.504952 after 1.09 seconds
+[0m05:29:57.505388 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff822fcca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff7e625ac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff7e625fa0>]}
+[0m05:29:57.505903 [debug] [MainThread]: Flushing usage events
+[0m05:29:57.852661 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:31:30.832609 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa11bcca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa044af10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa0fc72e0>]}
+
+
+============================== 05:31:30.837571 | 9f280df4-ed4d-421d-b9ce-943e97f55b59 ==============================
+[0m05:31:30.837571 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m05:31:30.838044 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'log_format': 'default', 'warn_error': 'None', 'empty': 'False', 'debug': 'False', 'partial_parse': 'True', 'target_path': 'None', 'use_experimental_parser': 'False', 'introspect': 'True', 'no_print': 'None', 'profiles_dir': '/opt/airflow/dbt', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_colors': 'True', 'quiet': 'False', 'log_path': '/opt/airflow/dbt/logs', 'log_cache_events': 'False', 'fail_fast': 'False', 'static_parser': 'True', 'printer_width': '80', 'invocation_command': 'dbt run --profiles-dir /opt/airflow/dbt --project-dir /opt/airflow/dbt', 'cache_selected_only': 'False'}
+[0m05:31:31.289191 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9f280df4-ed4d-421d-b9ce-943e97f55b59', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa2cc2880>]}
+[0m05:31:31.318243 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9f280df4-ed4d-421d-b9ce-943e97f55b59', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff85280c10>]}
+[0m05:31:31.318692 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m05:31:31.384301 [debug] [MainThread]: checksum: e63134dccc1251cfb572caf0e4aa952f030c125ee3634f3bf2c0a2e1bb6ae349, vars: {}, profile: , target: , version: 1.11.0b3
+[0m05:31:31.385009 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m05:31:31.385502 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '9f280df4-ed4d-421d-b9ce-943e97f55b59', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff850a77c0>]}
+[0m05:31:31.973793 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.stock_crypto_project.stg_market_prices' (models/stg_market_prices.sql) depends on a source named 'raw_data.market_prices' which was not found
+[0m05:31:31.975150 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 1.1760774, "process_in_blocks": "0", "process_kernel_time": 0.317855, "process_mem_max_rss": "188612", "process_out_blocks": "5", "process_user_time": 2.559946}
+[0m05:31:31.975561 [debug] [MainThread]: Command `dbt run` failed at 05:31:31.975508 after 1.18 seconds
+[0m05:31:31.975806 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa11bcca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9d625ac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9d625fa0>]}
+[0m05:31:31.976060 [debug] [MainThread]: Flushing usage events
+[0m05:31:32.384649 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:33:29.097811 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffbaa3cc40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb9ae30d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb9ae3070>]}
+
+
+============================== 05:33:29.102921 | 55171e3a-7f70-4741-a28a-6d9da2ebcda3 ==============================
+[0m05:33:29.102921 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m05:33:29.103350 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'warn_error': 'None', 'log_cache_events': 'False', 'profiles_dir': '/opt/airflow/dbt', 'debug': 'False', 'static_parser': 'True', 'quiet': 'False', 'target_path': 'None', 'log_path': '/opt/airflow/dbt/logs', 'version_check': 'True', 'printer_width': '80', 'empty': 'False', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'write_json': 'True', 'indirect_selection': 'eager', 'partial_parse': 'True', 'invocation_command': 'dbt run --profiles-dir /opt/airflow/dbt --project-dir /opt/airflow/dbt', 'no_print': 'None', 'use_colors': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_format': 'default', 'cache_selected_only': 'False'}
+[0m05:33:29.538682 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '55171e3a-7f70-4741-a28a-6d9da2ebcda3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9a95da00>]}
+[0m05:33:29.569326 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '55171e3a-7f70-4741-a28a-6d9da2ebcda3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9ab19100>]}
+[0m05:33:29.569900 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m05:33:29.646663 [debug] [MainThread]: checksum: e63134dccc1251cfb572caf0e4aa952f030c125ee3634f3bf2c0a2e1bb6ae349, vars: {}, profile: , target: , version: 1.11.0b3
+[0m05:33:29.647431 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m05:33:29.648046 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '55171e3a-7f70-4741-a28a-6d9da2ebcda3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9a8b84f0>]}
+[0m05:33:30.305001 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.stock_crypto_project.output
+- models.stock_crypto_project.input
+[0m05:33:30.310937 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '55171e3a-7f70-4741-a28a-6d9da2ebcda3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb6cfa130>]}
+[0m05:33:30.355332 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m05:33:30.357379 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m05:33:30.373245 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '55171e3a-7f70-4741-a28a-6d9da2ebcda3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb6ce1970>]}
+[0m05:33:30.373542 [info ] [MainThread]: Found 2 models, 1 source, 492 macros
+[0m05:33:30.373951 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '55171e3a-7f70-4741-a28a-6d9da2ebcda3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb6d4e6d0>]}
+[0m05:33:30.374635 [info ] [MainThread]: 
+[0m05:33:30.374910 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m05:33:30.375118 [info ] [MainThread]: 
+[0m05:33:30.375427 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m05:33:30.377825 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_USER_DB_QUAIL'
+[0m05:33:30.425647 [debug] [ThreadPool]: Using snowflake connection "list_USER_DB_QUAIL"
+[0m05:33:30.426030 [debug] [ThreadPool]: On list_USER_DB_QUAIL: show terse schemas in database USER_DB_QUAIL
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_crypto_profile", "target_name": "dev", "connection_name": "list_USER_DB_QUAIL"} */
+[0m05:33:30.426296 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m05:33:33.561131 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 3.134 seconds
+[0m05:33:33.566812 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_USER_DB_QUAIL, now list_USER_DB_QUAIL_ANALYTICS)
+[0m05:33:33.582834 [debug] [ThreadPool]: Using snowflake connection "list_USER_DB_QUAIL_ANALYTICS"
+[0m05:33:33.583301 [debug] [ThreadPool]: On list_USER_DB_QUAIL_ANALYTICS: show objects in USER_DB_QUAIL.ANALYTICS
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_crypto_profile", "target_name": "dev", "connection_name": "list_USER_DB_QUAIL_ANALYTICS"} */;
+[0m05:33:33.739344 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.156 seconds
+[0m05:33:33.743568 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '55171e3a-7f70-4741-a28a-6d9da2ebcda3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffbd4b98e0>]}
+[0m05:33:33.758792 [debug] [Thread-1  ]: Began running node model.stock_crypto_project.stg_market_prices
+[0m05:33:33.759922 [info ] [Thread-1  ]: 1 of 2 START sql view model ANALYTICS.stg_market_prices ........................ [RUN]
+[0m05:33:33.764048 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_USER_DB_QUAIL_ANALYTICS, now model.stock_crypto_project.stg_market_prices)
+[0m05:33:33.765100 [debug] [Thread-1  ]: Began compiling node model.stock_crypto_project.stg_market_prices
+[0m05:33:33.774718 [debug] [Thread-1  ]: Writing injected SQL for node "model.stock_crypto_project.stg_market_prices"
+[0m05:33:33.778052 [debug] [Thread-1  ]: Began executing node model.stock_crypto_project.stg_market_prices
+[0m05:33:33.797494 [debug] [Thread-1  ]: Writing runtime sql for node "model.stock_crypto_project.stg_market_prices"
+[0m05:33:33.799663 [debug] [Thread-1  ]: Using snowflake connection "model.stock_crypto_project.stg_market_prices"
+[0m05:33:33.799904 [debug] [Thread-1  ]: On model.stock_crypto_project.stg_market_prices: create or replace   view USER_DB_QUAIL.ANALYTICS.stg_market_prices
+  
+  
+  
+  
+  as (
+    SELECT
+    symbol,
+    date,
+    open,
+    high,
+    low,
+    close,
+    volume,
+    asset_type
+FROM USER_DB_QUAIL.RAW.market_prices
+WHERE close IS NOT NULL
+  )
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_crypto_profile", "target_name": "dev", "node_id": "model.stock_crypto_project.stg_market_prices"} */;
+[0m05:33:34.178773 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 0.378 seconds
+[0m05:33:34.203792 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '55171e3a-7f70-4741-a28a-6d9da2ebcda3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb6cfeaf0>]}
+[0m05:33:34.204573 [info ] [Thread-1  ]: 1 of 2 OK created sql view model ANALYTICS.stg_market_prices ................... [[32mSUCCESS 1[0m in 0.44s]
+[0m05:33:34.205658 [debug] [Thread-1  ]: Finished running node model.stock_crypto_project.stg_market_prices
+[0m05:33:34.206631 [debug] [Thread-1  ]: Began running node model.stock_crypto_project.market_analysis
+[0m05:33:34.207147 [info ] [Thread-1  ]: 2 of 2 START sql view model ANALYTICS.market_analysis .......................... [RUN]
+[0m05:33:34.207640 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.stock_crypto_project.stg_market_prices, now model.stock_crypto_project.market_analysis)
+[0m05:33:34.207872 [debug] [Thread-1  ]: Began compiling node model.stock_crypto_project.market_analysis
+[0m05:33:34.210044 [debug] [Thread-1  ]: Writing injected SQL for node "model.stock_crypto_project.market_analysis"
+[0m05:33:34.210800 [debug] [Thread-1  ]: Began executing node model.stock_crypto_project.market_analysis
+[0m05:33:34.213593 [debug] [Thread-1  ]: Writing runtime sql for node "model.stock_crypto_project.market_analysis"
+[0m05:33:34.214935 [debug] [Thread-1  ]: Using snowflake connection "model.stock_crypto_project.market_analysis"
+[0m05:33:34.215178 [debug] [Thread-1  ]: On model.stock_crypto_project.market_analysis: create or replace   view USER_DB_QUAIL.ANALYTICS.market_analysis
+  
+  
+  
+  
+  as (
+    WITH market_data AS (
+    SELECT * FROM USER_DB_QUAIL.ANALYTICS.stg_market_prices
+),
+
+calculations AS (
+    SELECT
+        symbol,
+        date,
+        close,
+        asset_type,
+        
+        -- Calculate 14-Day Return
+        (close - LAG(close, 14) OVER (PARTITION BY symbol ORDER BY date)) 
+        / NULLIF(LAG(close, 14) OVER (PARTITION BY symbol ORDER BY date), 0) as return_14d,
+
+        -- Calculate 30-Day Volatility (Risk)
+        STDDEV(close) OVER (
+            PARTITION BY symbol 
+            ORDER BY date 
+            ROWS BETWEEN 29 PRECEDING AND CURRENT ROW
+        ) as volatility_30d
+        
+    FROM market_data
+)
+
+SELECT * FROM calculations
+WHERE date >= DATEADD(year, -1, CURRENT_DATE())
+ORDER BY date DESC, symbol
+  )
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_crypto_profile", "target_name": "dev", "node_id": "model.stock_crypto_project.market_analysis"} */;
+[0m05:33:34.546342 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 0.330 seconds
+[0m05:33:34.554551 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '55171e3a-7f70-4741-a28a-6d9da2ebcda3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff99563d90>]}
+[0m05:33:34.556932 [info ] [Thread-1  ]: 2 of 2 OK created sql view model ANALYTICS.market_analysis ..................... [[32mSUCCESS 1[0m in 0.35s]
+[0m05:33:34.560551 [debug] [Thread-1  ]: Finished running node model.stock_crypto_project.market_analysis
+[0m05:33:34.565568 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m05:33:34.566638 [debug] [MainThread]: Connection 'model.stock_crypto_project.market_analysis' was left open.
+[0m05:33:34.567546 [debug] [MainThread]: On model.stock_crypto_project.market_analysis: Close
+[0m05:33:34.680868 [info ] [MainThread]: 
+[0m05:33:34.681619 [info ] [MainThread]: Finished running 2 view models in 0 hours 0 minutes and 4.31 seconds (4.31s).
+[0m05:33:34.682335 [debug] [MainThread]: Command end result
+[0m05:33:34.703402 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m05:33:34.707092 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m05:33:34.712488 [debug] [MainThread]: Wrote artifact RunExecutionResult to /opt/airflow/dbt/target/run_results.json
+[0m05:33:34.712786 [info ] [MainThread]: 
+[0m05:33:34.713327 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m05:33:34.713818 [info ] [MainThread]: 
+[0m05:33:34.714263 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m05:33:34.716065 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 5.656044, "process_in_blocks": "2224", "process_kernel_time": 0.481794, "process_mem_max_rss": "213372", "process_out_blocks": "3030", "process_user_time": 3.045024}
+[0m05:33:34.716766 [debug] [MainThread]: Command `dbt run` succeeded at 05:33:34.716698 after 5.66 seconds
+[0m05:33:34.717573 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffbaa3cc40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9a95da00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb6cd9670>]}
+[0m05:33:34.718085 [debug] [MainThread]: Flushing usage events
+[0m05:33:35.088583 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:33:37.817070 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9c57cc10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9c347f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9bbe89a0>]}
+
+
+============================== 05:33:37.820660 | 127715cb-d0ac-4df5-9f71-5ebfc842e815 ==============================
+[0m05:33:37.820660 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m05:33:37.821750 [debug] [MainThread]: running dbt with arguments {'use_experimental_parser': 'False', 'partial_parse': 'True', 'invocation_command': 'dbt test --profiles-dir /opt/airflow/dbt --project-dir /opt/airflow/dbt', 'static_parser': 'True', 'version_check': 'True', 'fail_fast': 'False', 'warn_error': 'None', 'write_json': 'True', 'use_colors': 'True', 'log_cache_events': 'False', 'empty': 'None', 'printer_width': '80', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'target_path': 'None', 'log_path': '/opt/airflow/dbt/logs', 'debug': 'False', 'indirect_selection': 'eager', 'no_print': 'None', 'profiles_dir': '/opt/airflow/dbt', 'introspect': 'True', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m05:33:38.266699 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '127715cb-d0ac-4df5-9f71-5ebfc842e815', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9e097fd0>]}
+[0m05:33:38.297584 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '127715cb-d0ac-4df5-9f71-5ebfc842e815', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff8057deb0>]}
+[0m05:33:38.298051 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m05:33:38.362809 [debug] [MainThread]: checksum: e63134dccc1251cfb572caf0e4aa952f030c125ee3634f3bf2c0a2e1bb6ae349, vars: {}, profile: , target: , version: 1.11.0b3
+[0m05:33:38.427200 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m05:33:38.427494 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m05:33:38.431297 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.stock_crypto_project.input
+- models.stock_crypto_project.output
+[0m05:33:38.451457 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '127715cb-d0ac-4df5-9f71-5ebfc842e815', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff98b0a130>]}
+[0m05:33:38.501365 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m05:33:38.502751 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m05:33:38.518470 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '127715cb-d0ac-4df5-9f71-5ebfc842e815', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff98954490>]}
+[0m05:33:38.518841 [info ] [MainThread]: Found 2 models, 1 source, 492 macros
+[0m05:33:38.519348 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '127715cb-d0ac-4df5-9f71-5ebfc842e815', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff98ad3190>]}
+[0m05:33:38.520072 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m05:33:38.521181 [debug] [MainThread]: Command end result
+[0m05:33:38.537028 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m05:33:38.538011 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m05:33:38.539921 [debug] [MainThread]: Wrote artifact RunExecutionResult to /opt/airflow/dbt/target/run_results.json
+[0m05:33:38.540465 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 0.75221115, "process_in_blocks": "1696", "process_kernel_time": 0.209315, "process_mem_max_rss": "191140", "process_out_blocks": "1988", "process_user_time": 2.122482}
+[0m05:33:38.540824 [debug] [MainThread]: Command `dbt test` succeeded at 05:33:38.540769 after 0.75 seconds
+[0m05:33:38.541070 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9c57cc10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9c41d340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9d2bf910>]}
+[0m05:33:38.541271 [debug] [MainThread]: Flushing usage events
+[0m05:33:38.890461 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m05:33:40.965081 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff7c1fcc70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff7b2d8e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff7b2d8790>]}
+
+
+============================== 05:33:40.968562 | 0e5743ae-7724-4567-bc3d-dab992637e1a ==============================
+[0m05:33:40.968562 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m05:33:40.969258 [debug] [MainThread]: running dbt with arguments {'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'invocation_command': 'dbt snapshot --profiles-dir /opt/airflow/dbt --project-dir /opt/airflow/dbt', 'write_json': 'True', 'target_path': 'None', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'use_colors': 'True', 'debug': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_path': '/opt/airflow/dbt/logs', 'indirect_selection': 'eager', 'empty': 'False', 'log_cache_events': 'False', 'warn_error': 'None', 'version_check': 'True', 'partial_parse': 'True', 'profiles_dir': '/opt/airflow/dbt', 'static_parser': 'True', 'printer_width': '80', 'log_format': 'default'}
+[0m05:33:41.400097 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0e5743ae-7724-4567-bc3d-dab992637e1a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff6023f850>]}
+[0m05:33:41.429177 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0e5743ae-7724-4567-bc3d-dab992637e1a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff602ed070>]}
+[0m05:33:41.429682 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m05:33:41.496428 [debug] [MainThread]: checksum: e63134dccc1251cfb572caf0e4aa952f030c125ee3634f3bf2c0a2e1bb6ae349, vars: {}, profile: , target: , version: 1.11.0b3
+[0m05:33:41.562636 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m05:33:41.562956 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m05:33:41.566075 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.stock_crypto_project.input
+- models.stock_crypto_project.output
+[0m05:33:41.584514 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0e5743ae-7724-4567-bc3d-dab992637e1a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff786c6130>]}
+[0m05:33:41.631813 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m05:33:41.633441 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m05:33:41.643767 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0e5743ae-7724-4567-bc3d-dab992637e1a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff7873bb80>]}
+[0m05:33:41.644118 [info ] [MainThread]: Found 2 models, 1 source, 492 macros
+[0m05:33:41.644531 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0e5743ae-7724-4567-bc3d-dab992637e1a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff601f6a60>]}
+[0m05:33:41.645207 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m05:33:41.646287 [debug] [MainThread]: Command end result
+[0m05:33:41.661989 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m05:33:41.662946 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m05:33:41.664748 [debug] [MainThread]: Wrote artifact RunExecutionResult to /opt/airflow/dbt/target/run_results.json
+[0m05:33:41.665319 [debug] [MainThread]: Resource report: {"command_name": "snapshot", "command_success": true, "command_wall_clock_time": 0.7283022, "process_in_blocks": "8", "process_kernel_time": 0.214483, "process_mem_max_rss": "190100", "process_out_blocks": "1988", "process_user_time": 2.081811}
+[0m05:33:41.665621 [debug] [MainThread]: Command `dbt snapshot` succeeded at 05:33:41.665578 after 0.73 seconds
+[0m05:33:41.665840 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff7c1fcc70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff602ed070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff7c081550>]}
+[0m05:33:41.666051 [debug] [MainThread]: Flushing usage events
+[0m05:33:42.018346 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:11:37.648179 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb213cc40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb11e4100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb11e40a0>]}
+
+
+============================== 06:11:37.655680 | 875ff3fa-b801-4dd7-b3bd-7baba95dd432 ==============================
+[0m06:11:37.655680 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m06:11:37.656181 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'target_path': 'None', 'write_json': 'True', 'warn_error': 'None', 'log_path': '/opt/airflow/dbt/logs', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'use_experimental_parser': 'False', 'debug': 'False', 'partial_parse': 'True', 'indirect_selection': 'eager', 'quiet': 'False', 'use_colors': 'True', 'printer_width': '80', 'version_check': 'True', 'log_cache_events': 'False', 'log_format': 'default', 'introspect': 'True', 'fail_fast': 'False', 'invocation_command': 'dbt run --profiles-dir /opt/airflow/dbt --project-dir /opt/airflow/dbt', 'cache_selected_only': 'False', 'empty': 'False', 'profiles_dir': '/opt/airflow/dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m06:11:38.199968 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '875ff3fa-b801-4dd7-b3bd-7baba95dd432', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff921dba90>]}
+[0m06:11:38.231985 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '875ff3fa-b801-4dd7-b3bd-7baba95dd432', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff92203bb0>]}
+[0m06:11:38.233077 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m06:11:38.373864 [debug] [MainThread]: checksum: e63134dccc1251cfb572caf0e4aa952f030c125ee3634f3bf2c0a2e1bb6ae349, vars: {}, profile: , target: , version: 1.11.0b3
+[0m06:11:38.471507 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m06:11:38.472001 [debug] [MainThread]: Partial parsing: added file: stock_crypto_project://models/final_prediction.sql
+[0m06:11:38.577368 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.stock_crypto_project.final_prediction' (models/final_prediction.sql) depends on a source named 'analytics.market_forecast_results' which was not found
+[0m06:11:38.578966 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.9732128, "process_in_blocks": "5768", "process_kernel_time": 0.558227, "process_mem_max_rss": "188584", "process_out_blocks": "5", "process_user_time": 2.390671}
+[0m06:11:38.579645 [debug] [MainThread]: Command `dbt run` failed at 06:11:38.579536 after 0.97 seconds
+[0m06:11:38.580142 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb213cc40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffae830b80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffae747b50>]}
+[0m06:11:38.580458 [debug] [MainThread]: Flushing usage events
+[0m06:11:38.976483 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:14:28.002227 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb243dca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb16caf10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb22472e0>]}
+
+
+============================== 06:14:28.006354 | 6e6ae429-e891-4ce4-b6a2-39ed59e47013 ==============================
+[0m06:14:28.006354 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m06:14:28.007432 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'static_parser': 'True', 'version_check': 'True', 'use_colors': 'True', 'warn_error': 'None', 'empty': 'False', 'log_cache_events': 'False', 'partial_parse': 'True', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'invocation_command': 'dbt run --profiles-dir /opt/airflow/dbt --project-dir /opt/airflow/dbt', 'target_path': 'None', 'log_format': 'default', 'printer_width': '80', 'log_path': '/opt/airflow/dbt/logs', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': '/opt/airflow/dbt', 'debug': 'False', 'quiet': 'False'}
+[0m06:14:28.680717 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6e6ae429-e891-4ce4-b6a2-39ed59e47013', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb3f4e880>]}
+[0m06:14:28.715702 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6e6ae429-e891-4ce4-b6a2-39ed59e47013', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff924ffc10>]}
+[0m06:14:28.716497 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m06:14:28.798588 [debug] [MainThread]: checksum: e63134dccc1251cfb572caf0e4aa952f030c125ee3634f3bf2c0a2e1bb6ae349, vars: {}, profile: , target: , version: 1.11.0b3
+[0m06:14:28.876942 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 1 files changed.
+[0m06:14:28.877461 [debug] [MainThread]: Partial parsing: added file: stock_crypto_project://models/final_prediction.sql
+[0m06:14:28.877768 [debug] [MainThread]: Partial parsing: updated file: stock_crypto_project://models/sources.yml
+[0m06:14:29.061455 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.stock_crypto_project.input
+- models.stock_crypto_project.output
+[0m06:14:29.068007 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6e6ae429-e891-4ce4-b6a2-39ed59e47013', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffae50af40>]}
+[0m06:14:29.272282 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m06:14:29.277451 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m06:14:29.289734 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6e6ae429-e891-4ce4-b6a2-39ed59e47013', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff924a0bb0>]}
+[0m06:14:29.290155 [info ] [MainThread]: Found 3 models, 2 sources, 492 macros
+[0m06:14:29.291072 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6e6ae429-e891-4ce4-b6a2-39ed59e47013', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffae7d7f40>]}
+[0m06:14:29.291986 [info ] [MainThread]: 
+[0m06:14:29.292287 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m06:14:29.292494 [info ] [MainThread]: 
+[0m06:14:29.292843 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m06:14:29.295772 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_USER_DB_QUAIL'
+[0m06:14:29.328467 [debug] [ThreadPool]: Using snowflake connection "list_USER_DB_QUAIL"
+[0m06:14:29.328879 [debug] [ThreadPool]: On list_USER_DB_QUAIL: show terse schemas in database USER_DB_QUAIL
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_crypto_profile", "target_name": "dev", "connection_name": "list_USER_DB_QUAIL"} */
+[0m06:14:29.329100 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m06:14:30.188327 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 0.859 seconds
+[0m06:14:30.194540 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_USER_DB_QUAIL, now list_USER_DB_QUAIL_ANALYTICS)
+[0m06:14:30.210952 [debug] [ThreadPool]: Using snowflake connection "list_USER_DB_QUAIL_ANALYTICS"
+[0m06:14:30.211498 [debug] [ThreadPool]: On list_USER_DB_QUAIL_ANALYTICS: show objects in USER_DB_QUAIL.ANALYTICS
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_crypto_profile", "target_name": "dev", "connection_name": "list_USER_DB_QUAIL_ANALYTICS"} */;
+[0m06:14:30.335390 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 0.123 seconds
+[0m06:14:30.341158 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6e6ae429-e891-4ce4-b6a2-39ed59e47013', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9252c9a0>]}
+[0m06:14:30.362634 [debug] [Thread-1  ]: Began running node model.stock_crypto_project.stg_market_prices
+[0m06:14:30.371545 [info ] [Thread-1  ]: 1 of 3 START sql view model ANALYTICS.stg_market_prices ........................ [RUN]
+[0m06:14:30.377161 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_USER_DB_QUAIL_ANALYTICS, now model.stock_crypto_project.stg_market_prices)
+[0m06:14:30.378602 [debug] [Thread-1  ]: Began compiling node model.stock_crypto_project.stg_market_prices
+[0m06:14:30.393729 [debug] [Thread-1  ]: Writing injected SQL for node "model.stock_crypto_project.stg_market_prices"
+[0m06:14:30.395939 [debug] [Thread-1  ]: Began executing node model.stock_crypto_project.stg_market_prices
+[0m06:14:30.421009 [debug] [Thread-1  ]: Writing runtime sql for node "model.stock_crypto_project.stg_market_prices"
+[0m06:14:30.423141 [debug] [Thread-1  ]: Using snowflake connection "model.stock_crypto_project.stg_market_prices"
+[0m06:14:30.423477 [debug] [Thread-1  ]: On model.stock_crypto_project.stg_market_prices: create or replace   view USER_DB_QUAIL.ANALYTICS.stg_market_prices
+  
+  
+  
+  
+  as (
+    SELECT
+    symbol,
+    date,
+    open,
+    high,
+    low,
+    close,
+    volume,
+    asset_type
+FROM USER_DB_QUAIL.RAW.market_prices
+WHERE close IS NOT NULL
+  )
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_crypto_profile", "target_name": "dev", "node_id": "model.stock_crypto_project.stg_market_prices"} */;
+[0m06:14:30.737007 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 0.313 seconds
+[0m06:14:30.771533 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6e6ae429-e891-4ce4-b6a2-39ed59e47013', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb3d81040>]}
+[0m06:14:30.772273 [info ] [Thread-1  ]: 1 of 3 OK created sql view model ANALYTICS.stg_market_prices ................... [[32mSUCCESS 1[0m in 0.39s]
+[0m06:14:30.773423 [debug] [Thread-1  ]: Finished running node model.stock_crypto_project.stg_market_prices
+[0m06:14:30.774572 [debug] [Thread-1  ]: Began running node model.stock_crypto_project.final_prediction
+[0m06:14:30.775104 [info ] [Thread-1  ]: 2 of 3 START sql table model ANALYTICS.final_prediction ........................ [RUN]
+[0m06:14:30.775615 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.stock_crypto_project.stg_market_prices, now model.stock_crypto_project.final_prediction)
+[0m06:14:30.775953 [debug] [Thread-1  ]: Began compiling node model.stock_crypto_project.final_prediction
+[0m06:14:30.778816 [debug] [Thread-1  ]: Writing injected SQL for node "model.stock_crypto_project.final_prediction"
+[0m06:14:30.780069 [debug] [Thread-1  ]: Began executing node model.stock_crypto_project.final_prediction
+[0m06:14:30.795977 [debug] [Thread-1  ]: Writing runtime sql for node "model.stock_crypto_project.final_prediction"
+[0m06:14:30.797559 [debug] [Thread-1  ]: Using snowflake connection "model.stock_crypto_project.final_prediction"
+[0m06:14:30.797863 [debug] [Thread-1  ]: On model.stock_crypto_project.final_prediction: create or replace transient table USER_DB_QUAIL.ANALYTICS.final_prediction
+    
+    
+    
+    as (
+
+WITH current_data AS (
+    SELECT 
+        symbol,
+        close as current_price,
+        date
+    FROM USER_DB_QUAIL.ANALYTICS.stg_market_prices
+    QUALIFY ROW_NUMBER() OVER (PARTITION BY symbol ORDER BY date DESC) = 1
+),
+
+forecast_data AS (
+    SELECT 
+        symbol,
+        predicted_close as forecasted_price_14d,
+        forecast_date
+    FROM USER_DB_QUAIL.ANALYTICS.market_forecast_results
+    QUALIFY ROW_NUMBER() OVER (PARTITION BY symbol ORDER BY forecast_date DESC) = 1
+)
+
+SELECT 
+    c.symbol,
+    c.current_price,
+    f.forecasted_price_14d,
+    ((f.forecasted_price_14d - c.current_price) / c.current_price) * 100 as predicted_return_pct,
+    f.forecast_date
+FROM current_data c
+JOIN forecast_data f ON c.symbol = f.symbol
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_crypto_profile", "target_name": "dev", "node_id": "model.stock_crypto_project.final_prediction"} */;
+[0m06:14:32.322653 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 1.523 seconds
+[0m06:14:32.335197 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6e6ae429-e891-4ce4-b6a2-39ed59e47013', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff917e3dc0>]}
+[0m06:14:32.337353 [info ] [Thread-1  ]: 2 of 3 OK created sql table model ANALYTICS.final_prediction ................... [[32mSUCCESS 1[0m in 1.56s]
+[0m06:14:32.341841 [debug] [Thread-1  ]: Finished running node model.stock_crypto_project.final_prediction
+[0m06:14:32.343225 [debug] [Thread-1  ]: Began running node model.stock_crypto_project.market_analysis
+[0m06:14:32.344584 [info ] [Thread-1  ]: 3 of 3 START sql view model ANALYTICS.market_analysis .......................... [RUN]
+[0m06:14:32.345508 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.stock_crypto_project.final_prediction, now model.stock_crypto_project.market_analysis)
+[0m06:14:32.346041 [debug] [Thread-1  ]: Began compiling node model.stock_crypto_project.market_analysis
+[0m06:14:32.351829 [debug] [Thread-1  ]: Writing injected SQL for node "model.stock_crypto_project.market_analysis"
+[0m06:14:32.354253 [debug] [Thread-1  ]: Began executing node model.stock_crypto_project.market_analysis
+[0m06:14:32.357599 [debug] [Thread-1  ]: Writing runtime sql for node "model.stock_crypto_project.market_analysis"
+[0m06:14:32.359128 [debug] [Thread-1  ]: Using snowflake connection "model.stock_crypto_project.market_analysis"
+[0m06:14:32.359473 [debug] [Thread-1  ]: On model.stock_crypto_project.market_analysis: create or replace   view USER_DB_QUAIL.ANALYTICS.market_analysis
+  
+  
+  
+  
+  as (
+    WITH market_data AS (
+    SELECT * FROM USER_DB_QUAIL.ANALYTICS.stg_market_prices
+),
+
+calculations AS (
+    SELECT
+        symbol,
+        date,
+        close,
+        asset_type,
+        
+        -- Calculate 14-Day Return
+        (close - LAG(close, 14) OVER (PARTITION BY symbol ORDER BY date)) 
+        / NULLIF(LAG(close, 14) OVER (PARTITION BY symbol ORDER BY date), 0) as return_14d,
+
+        -- Calculate 30-Day Volatility (Risk)
+        STDDEV(close) OVER (
+            PARTITION BY symbol 
+            ORDER BY date 
+            ROWS BETWEEN 29 PRECEDING AND CURRENT ROW
+        ) as volatility_30d
+        
+    FROM market_data
+)
+
+SELECT * FROM calculations
+WHERE date >= DATEADD(year, -1, CURRENT_DATE())
+ORDER BY date DESC, symbol
+  )
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_crypto_profile", "target_name": "dev", "node_id": "model.stock_crypto_project.market_analysis"} */;
+[0m06:14:32.681680 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 0.322 seconds
+[0m06:14:32.687831 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6e6ae429-e891-4ce4-b6a2-39ed59e47013', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb3d81040>]}
+[0m06:14:32.689503 [info ] [Thread-1  ]: 3 of 3 OK created sql view model ANALYTICS.market_analysis ..................... [[32mSUCCESS 1[0m in 0.34s]
+[0m06:14:32.691939 [debug] [Thread-1  ]: Finished running node model.stock_crypto_project.market_analysis
+[0m06:14:32.695880 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m06:14:32.696675 [debug] [MainThread]: Connection 'model.stock_crypto_project.market_analysis' was left open.
+[0m06:14:32.697204 [debug] [MainThread]: On model.stock_crypto_project.market_analysis: Close
+[0m06:14:32.813350 [info ] [MainThread]: 
+[0m06:14:32.815841 [info ] [MainThread]: Finished running 1 table model, 2 view models in 0 hours 0 minutes and 3.52 seconds (3.52s).
+[0m06:14:32.818835 [debug] [MainThread]: Command end result
+[0m06:14:32.856330 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m06:14:32.859212 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m06:14:32.865017 [debug] [MainThread]: Wrote artifact RunExecutionResult to /opt/airflow/dbt/target/run_results.json
+[0m06:14:32.865283 [info ] [MainThread]: 
+[0m06:14:32.865787 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m06:14:32.866111 [info ] [MainThread]: 
+[0m06:14:32.866470 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=3
+[0m06:14:32.874944 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 4.903294, "process_in_blocks": "8", "process_kernel_time": 0.479998, "process_mem_max_rss": "211996", "process_out_blocks": "3074", "process_user_time": 3.015663}
+[0m06:14:32.875659 [debug] [MainThread]: Command `dbt run` succeeded at 06:14:32.875601 after 4.90 seconds
+[0m06:14:32.876085 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb243dca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb22cabe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff924e0490>]}
+[0m06:14:32.876408 [debug] [MainThread]: Flushing usage events
+[0m06:14:33.269550 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:14:35.930343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa37bcc70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa2863220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa28631c0>]}
+
+
+============================== 06:14:35.936893 | ef72e81f-0103-44dd-9439-a1c6e50f2a62 ==============================
+[0m06:14:35.936893 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m06:14:35.944686 [debug] [MainThread]: running dbt with arguments {'log_cache_events': 'False', 'profiles_dir': '/opt/airflow/dbt', 'use_colors': 'True', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'quiet': 'False', 'indirect_selection': 'eager', 'warn_error': 'None', 'introspect': 'True', 'no_print': 'None', 'empty': 'None', 'version_check': 'True', 'write_json': 'True', 'debug': 'False', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'log_path': '/opt/airflow/dbt/logs', 'partial_parse': 'True', 'target_path': 'None', 'invocation_command': 'dbt test --profiles-dir /opt/airflow/dbt --project-dir /opt/airflow/dbt', 'log_format': 'default'}
+[0m06:14:36.415355 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ef72e81f-0103-44dd-9439-a1c6e50f2a62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa510ee20>]}
+[0m06:14:36.450650 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ef72e81f-0103-44dd-9439-a1c6e50f2a62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff837e5250>]}
+[0m06:14:36.451542 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m06:14:36.517208 [debug] [MainThread]: checksum: e63134dccc1251cfb572caf0e4aa952f030c125ee3634f3bf2c0a2e1bb6ae349, vars: {}, profile: , target: , version: 1.11.0b3
+[0m06:14:36.589608 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m06:14:36.589926 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m06:14:36.593158 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.stock_crypto_project.input
+- models.stock_crypto_project.output
+[0m06:14:36.610631 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ef72e81f-0103-44dd-9439-a1c6e50f2a62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9fc7f130>]}
+[0m06:14:36.675799 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m06:14:36.677294 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m06:14:36.692793 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ef72e81f-0103-44dd-9439-a1c6e50f2a62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9fb1c820>]}
+[0m06:14:36.693362 [info ] [MainThread]: Found 3 models, 2 sources, 492 macros
+[0m06:14:36.693879 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ef72e81f-0103-44dd-9439-a1c6e50f2a62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9fc7fca0>]}
+[0m06:14:36.694920 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m06:14:36.696121 [debug] [MainThread]: Command end result
+[0m06:14:36.712170 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m06:14:36.713223 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m06:14:36.715118 [debug] [MainThread]: Wrote artifact RunExecutionResult to /opt/airflow/dbt/target/run_results.json
+[0m06:14:36.715762 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 0.8403458, "process_in_blocks": "0", "process_kernel_time": 0.306693, "process_mem_max_rss": "187692", "process_out_blocks": "2012", "process_user_time": 2.422561}
+[0m06:14:36.716064 [debug] [MainThread]: Command `dbt test` succeeded at 06:14:36.716020 after 0.84 seconds
+[0m06:14:36.716325 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa37bcc70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa3641550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9fc5f8b0>]}
+[0m06:14:36.716546 [debug] [MainThread]: Flushing usage events
+[0m06:14:37.085590 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:14:38.888693 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa8fbcd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa8d86be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa8062040>]}
+
+
+============================== 06:14:38.893234 | 16a87b1a-be97-44ae-af0f-be6bf717c052 ==============================
+[0m06:14:38.893234 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m06:14:38.895019 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'empty': 'False', 'static_parser': 'True', 'printer_width': '80', 'quiet': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/opt/airflow/dbt', 'debug': 'False', 'log_path': '/opt/airflow/dbt/logs', 'invocation_command': 'dbt snapshot --profiles-dir /opt/airflow/dbt --project-dir /opt/airflow/dbt', 'introspect': 'True', 'warn_error': 'None', 'fail_fast': 'False', 'indirect_selection': 'eager', 'target_path': 'None', 'log_format': 'default', 'no_print': 'None', 'version_check': 'True', 'log_cache_events': 'False'}
+[0m06:14:39.339268 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '16a87b1a-be97-44ae-af0f-be6bf717c052', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff8d003310>]}
+[0m06:14:39.369415 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '16a87b1a-be97-44ae-af0f-be6bf717c052', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff8d090250>]}
+[0m06:14:39.369959 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m06:14:39.435674 [debug] [MainThread]: checksum: e63134dccc1251cfb572caf0e4aa952f030c125ee3634f3bf2c0a2e1bb6ae349, vars: {}, profile: , target: , version: 1.11.0b3
+[0m06:14:39.504991 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m06:14:39.505280 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m06:14:39.508407 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.stock_crypto_project.input
+- models.stock_crypto_project.output
+[0m06:14:39.526368 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '16a87b1a-be97-44ae-af0f-be6bf717c052', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa54bf130>]}
+[0m06:14:39.574387 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m06:14:39.576402 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m06:14:39.588719 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '16a87b1a-be97-44ae-af0f-be6bf717c052', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa54bfc10>]}
+[0m06:14:39.589106 [info ] [MainThread]: Found 3 models, 2 sources, 492 macros
+[0m06:14:39.589468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '16a87b1a-be97-44ae-af0f-be6bf717c052', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa5515910>]}
+[0m06:14:39.590202 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m06:14:39.591301 [debug] [MainThread]: Command end result
+[0m06:14:39.608028 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m06:14:39.609124 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m06:14:39.611136 [debug] [MainThread]: Wrote artifact RunExecutionResult to /opt/airflow/dbt/target/run_results.json
+[0m06:14:39.611740 [debug] [MainThread]: Resource report: {"command_name": "snapshot", "command_success": true, "command_wall_clock_time": 0.76109314, "process_in_blocks": "0", "process_kernel_time": 0.219316, "process_mem_max_rss": "186632", "process_out_blocks": "2012", "process_user_time": 2.159966}
+[0m06:14:39.612092 [debug] [MainThread]: Command `dbt snapshot` succeeded at 06:14:39.612034 after 0.76 seconds
+[0m06:14:39.612342 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa8fbcd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa80ab1c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa8e34760>]}
+[0m06:14:39.612569 [debug] [MainThread]: Flushing usage events
+[0m06:14:39.968585 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:33:37.299359 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffabd7dcd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffabc34fa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffaae45160>]}
+
+
+============================== 06:33:37.304886 | 79dd855d-4f64-4af0-9e0e-ceeee95376c8 ==============================
+[0m06:33:37.304886 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m06:33:37.308000 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'target_path': 'None', 'version_check': 'True', 'indirect_selection': 'eager', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt run --profiles-dir /opt/airflow/dbt --project-dir /opt/airflow/dbt', 'empty': 'False', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'printer_width': '80', 'static_parser': 'True', 'partial_parse': 'True', 'warn_error': 'None', 'log_format': 'default', 'cache_selected_only': 'False', 'write_json': 'True', 'log_path': '/opt/airflow/dbt/logs', 'debug': 'False', 'profiles_dir': '/opt/airflow/dbt', 'quiet': 'False', 'no_print': 'None', 'use_colors': 'True'}
+[0m06:33:37.954280 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '79dd855d-4f64-4af0-9e0e-ceeee95376c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffaae7b550>]}
+[0m06:33:37.987217 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '79dd855d-4f64-4af0-9e0e-ceeee95376c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffaae7b340>]}
+[0m06:33:37.988081 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m06:33:38.062078 [debug] [MainThread]: checksum: e63134dccc1251cfb572caf0e4aa952f030c125ee3634f3bf2c0a2e1bb6ae349, vars: {}, profile: , target: , version: 1.11.0b3
+[0m06:33:38.147523 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m06:33:38.148018 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m06:33:38.152422 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.stock_crypto_project.input
+- models.stock_crypto_project.output
+[0m06:33:38.178866 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '79dd855d-4f64-4af0-9e0e-ceeee95376c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa82be130>]}
+[0m06:33:38.234974 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m06:33:38.236869 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m06:33:38.247906 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '79dd855d-4f64-4af0-9e0e-ceeee95376c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa8255430>]}
+[0m06:33:38.248231 [info ] [MainThread]: Found 3 models, 2 sources, 492 macros
+[0m06:33:38.248704 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '79dd855d-4f64-4af0-9e0e-ceeee95376c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff8bbf50a0>]}
+[0m06:33:38.249625 [info ] [MainThread]: 
+[0m06:33:38.250023 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m06:33:38.250449 [info ] [MainThread]: 
+[0m06:33:38.251091 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m06:33:38.255632 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_USER_DB_QUAIL'
+[0m06:33:38.280965 [debug] [ThreadPool]: Using snowflake connection "list_USER_DB_QUAIL"
+[0m06:33:38.281357 [debug] [ThreadPool]: On list_USER_DB_QUAIL: show terse schemas in database USER_DB_QUAIL
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_crypto_profile", "target_name": "dev", "connection_name": "list_USER_DB_QUAIL"} */
+[0m06:33:38.281574 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m06:33:41.326526 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 3.045 seconds
+[0m06:33:41.332032 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_USER_DB_QUAIL, now list_USER_DB_QUAIL_ANALYTICS)
+[0m06:33:41.345229 [debug] [ThreadPool]: Using snowflake connection "list_USER_DB_QUAIL_ANALYTICS"
+[0m06:33:41.345657 [debug] [ThreadPool]: On list_USER_DB_QUAIL_ANALYTICS: show objects in USER_DB_QUAIL.ANALYTICS
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_crypto_profile", "target_name": "dev", "connection_name": "list_USER_DB_QUAIL_ANALYTICS"} */;
+[0m06:33:41.526309 [debug] [ThreadPool]: SQL status: SUCCESS 6 in 0.180 seconds
+[0m06:33:41.532408 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '79dd855d-4f64-4af0-9e0e-ceeee95376c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffac0326a0>]}
+[0m06:33:41.539395 [debug] [Thread-1  ]: Began running node model.stock_crypto_project.stg_market_prices
+[0m06:33:41.540610 [info ] [Thread-1  ]: 1 of 3 START sql view model ANALYTICS.stg_market_prices ........................ [RUN]
+[0m06:33:41.545441 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_USER_DB_QUAIL_ANALYTICS, now model.stock_crypto_project.stg_market_prices)
+[0m06:33:41.546306 [debug] [Thread-1  ]: Began compiling node model.stock_crypto_project.stg_market_prices
+[0m06:33:41.554528 [debug] [Thread-1  ]: Writing injected SQL for node "model.stock_crypto_project.stg_market_prices"
+[0m06:33:41.556094 [debug] [Thread-1  ]: Began executing node model.stock_crypto_project.stg_market_prices
+[0m06:33:41.578060 [debug] [Thread-1  ]: Writing runtime sql for node "model.stock_crypto_project.stg_market_prices"
+[0m06:33:41.579514 [debug] [Thread-1  ]: Using snowflake connection "model.stock_crypto_project.stg_market_prices"
+[0m06:33:41.579769 [debug] [Thread-1  ]: On model.stock_crypto_project.stg_market_prices: create or replace   view USER_DB_QUAIL.ANALYTICS.stg_market_prices
+  
+  
+  
+  
+  as (
+    SELECT
+    symbol,
+    date,
+    open,
+    high,
+    low,
+    close,
+    volume,
+    asset_type
+FROM USER_DB_QUAIL.RAW.market_prices
+WHERE close IS NOT NULL
+  )
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_crypto_profile", "target_name": "dev", "node_id": "model.stock_crypto_project.stg_market_prices"} */;
+[0m06:33:41.924054 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 0.343 seconds
+[0m06:33:41.948091 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '79dd855d-4f64-4af0-9e0e-ceeee95376c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa51540a0>]}
+[0m06:33:41.948913 [info ] [Thread-1  ]: 1 of 3 OK created sql view model ANALYTICS.stg_market_prices ................... [[32mSUCCESS 1[0m in 0.40s]
+[0m06:33:41.949899 [debug] [Thread-1  ]: Finished running node model.stock_crypto_project.stg_market_prices
+[0m06:33:41.951216 [debug] [Thread-1  ]: Began running node model.stock_crypto_project.final_prediction
+[0m06:33:41.951832 [info ] [Thread-1  ]: 2 of 3 START sql table model ANALYTICS.final_prediction ........................ [RUN]
+[0m06:33:41.952444 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.stock_crypto_project.stg_market_prices, now model.stock_crypto_project.final_prediction)
+[0m06:33:41.952879 [debug] [Thread-1  ]: Began compiling node model.stock_crypto_project.final_prediction
+[0m06:33:41.956702 [debug] [Thread-1  ]: Writing injected SQL for node "model.stock_crypto_project.final_prediction"
+[0m06:33:41.957987 [debug] [Thread-1  ]: Began executing node model.stock_crypto_project.final_prediction
+[0m06:33:41.977626 [debug] [Thread-1  ]: Writing runtime sql for node "model.stock_crypto_project.final_prediction"
+[0m06:33:41.979434 [debug] [Thread-1  ]: Using snowflake connection "model.stock_crypto_project.final_prediction"
+[0m06:33:41.979824 [debug] [Thread-1  ]: On model.stock_crypto_project.final_prediction: create or replace transient table USER_DB_QUAIL.ANALYTICS.final_prediction
+    
+    
+    
+    as (
+
+WITH current_data AS (
+    SELECT 
+        symbol,
+        close as current_price,
+        date
+    FROM USER_DB_QUAIL.ANALYTICS.stg_market_prices
+    QUALIFY ROW_NUMBER() OVER (PARTITION BY symbol ORDER BY date DESC) = 1
+),
+
+forecast_data AS (
+    SELECT 
+        symbol,
+        predicted_close as forecasted_price_14d,
+        forecast_date
+    FROM USER_DB_QUAIL.ANALYTICS.market_forecast_results
+    QUALIFY ROW_NUMBER() OVER (PARTITION BY symbol ORDER BY forecast_date DESC) = 1
+)
+
+SELECT 
+    c.symbol,
+    c.current_price,
+    f.forecasted_price_14d,
+    ((f.forecasted_price_14d - c.current_price) / c.current_price) * 100 as predicted_return_pct,
+    f.forecast_date
+FROM current_data c
+JOIN forecast_data f ON c.symbol = f.symbol
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_crypto_profile", "target_name": "dev", "node_id": "model.stock_crypto_project.final_prediction"} */;
+[0m06:33:43.660813 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 1.680 seconds
+[0m06:33:43.670984 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '79dd855d-4f64-4af0-9e0e-ceeee95376c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa513be20>]}
+[0m06:33:43.672129 [info ] [Thread-1  ]: 2 of 3 OK created sql table model ANALYTICS.final_prediction ................... [[32mSUCCESS 1[0m in 1.72s]
+[0m06:33:43.673350 [debug] [Thread-1  ]: Finished running node model.stock_crypto_project.final_prediction
+[0m06:33:43.673762 [debug] [Thread-1  ]: Began running node model.stock_crypto_project.market_analysis
+[0m06:33:43.674356 [info ] [Thread-1  ]: 3 of 3 START sql view model ANALYTICS.market_analysis .......................... [RUN]
+[0m06:33:43.674929 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.stock_crypto_project.final_prediction, now model.stock_crypto_project.market_analysis)
+[0m06:33:43.675215 [debug] [Thread-1  ]: Began compiling node model.stock_crypto_project.market_analysis
+[0m06:33:43.679402 [debug] [Thread-1  ]: Writing injected SQL for node "model.stock_crypto_project.market_analysis"
+[0m06:33:43.680534 [debug] [Thread-1  ]: Began executing node model.stock_crypto_project.market_analysis
+[0m06:33:43.683074 [debug] [Thread-1  ]: Writing runtime sql for node "model.stock_crypto_project.market_analysis"
+[0m06:33:43.684475 [debug] [Thread-1  ]: Using snowflake connection "model.stock_crypto_project.market_analysis"
+[0m06:33:43.684789 [debug] [Thread-1  ]: On model.stock_crypto_project.market_analysis: create or replace   view USER_DB_QUAIL.ANALYTICS.market_analysis
+  
+  
+  
+  
+  as (
+    WITH market_data AS (
+    SELECT * FROM USER_DB_QUAIL.ANALYTICS.stg_market_prices
+),
+
+calculations AS (
+    SELECT
+        symbol,
+        date,
+        close,
+        asset_type,
+        
+        -- Calculate 14-Day Return
+        (close - LAG(close, 14) OVER (PARTITION BY symbol ORDER BY date)) 
+        / NULLIF(LAG(close, 14) OVER (PARTITION BY symbol ORDER BY date), 0) as return_14d,
+
+        -- Calculate 30-Day Volatility (Risk)
+        STDDEV(close) OVER (
+            PARTITION BY symbol 
+            ORDER BY date 
+            ROWS BETWEEN 29 PRECEDING AND CURRENT ROW
+        ) as volatility_30d
+        
+    FROM market_data
+)
+
+SELECT * FROM calculations
+WHERE date >= DATEADD(year, -1, CURRENT_DATE())
+ORDER BY date DESC, symbol
+  )
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_crypto_profile", "target_name": "dev", "node_id": "model.stock_crypto_project.market_analysis"} */;
+[0m06:33:44.069244 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 0.384 seconds
+[0m06:33:44.075704 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '79dd855d-4f64-4af0-9e0e-ceeee95376c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff8bcc7670>]}
+[0m06:33:44.077623 [info ] [Thread-1  ]: 3 of 3 OK created sql view model ANALYTICS.market_analysis ..................... [[32mSUCCESS 1[0m in 0.40s]
+[0m06:33:44.078962 [debug] [Thread-1  ]: Finished running node model.stock_crypto_project.market_analysis
+[0m06:33:44.081474 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m06:33:44.082374 [debug] [MainThread]: Connection 'model.stock_crypto_project.market_analysis' was left open.
+[0m06:33:44.083468 [debug] [MainThread]: On model.stock_crypto_project.market_analysis: Close
+[0m06:33:44.202889 [info ] [MainThread]: 
+[0m06:33:44.205274 [info ] [MainThread]: Finished running 1 table model, 2 view models in 0 hours 0 minutes and 5.95 seconds (5.95s).
+[0m06:33:44.207344 [debug] [MainThread]: Command end result
+[0m06:33:44.245376 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m06:33:44.250513 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m06:33:44.257155 [debug] [MainThread]: Wrote artifact RunExecutionResult to /opt/airflow/dbt/target/run_results.json
+[0m06:33:44.257505 [info ] [MainThread]: 
+[0m06:33:44.258791 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m06:33:44.259044 [info ] [MainThread]: 
+[0m06:33:44.259392 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=3
+[0m06:33:44.261856 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 7.0021353, "process_in_blocks": "0", "process_kernel_time": 0.719433, "process_mem_max_rss": "207468", "process_out_blocks": "2065", "process_user_time": 3.106781}
+[0m06:33:44.262582 [debug] [MainThread]: Command `dbt run` succeeded at 06:33:44.262527 after 7.00 seconds
+[0m06:33:44.263026 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffabd7dcd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff8bd4b0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa832c760>]}
+[0m06:33:44.263333 [debug] [MainThread]: Flushing usage events
+[0m06:33:44.675065 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:33:47.805112 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb757cd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb6623220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb66231c0>]}
+
+
+============================== 06:33:47.809052 | 54c3a832-3718-4cc2-9154-f4c4a1ad503c ==============================
+[0m06:33:47.809052 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m06:33:47.810011 [debug] [MainThread]: running dbt with arguments {'use_experimental_parser': 'False', 'write_json': 'True', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'send_anonymous_usage_stats': 'True', 'invocation_command': 'dbt test --profiles-dir /opt/airflow/dbt --project-dir /opt/airflow/dbt', 'partial_parse': 'True', 'use_colors': 'True', 'printer_width': '80', 'fail_fast': 'False', 'quiet': 'False', 'indirect_selection': 'eager', 'debug': 'False', 'static_parser': 'True', 'empty': 'None', 'log_cache_events': 'False', 'target_path': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'profiles_dir': '/opt/airflow/dbt', 'log_path': '/opt/airflow/dbt/logs', 'no_print': 'None', 'warn_error': 'None'}
+[0m06:33:48.267913 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '54c3a832-3718-4cc2-9154-f4c4a1ad503c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff975ee4f0>]}
+[0m06:33:48.298891 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '54c3a832-3718-4cc2-9154-f4c4a1ad503c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb6eed910>]}
+[0m06:33:48.299460 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m06:33:48.374789 [debug] [MainThread]: checksum: e63134dccc1251cfb572caf0e4aa952f030c125ee3634f3bf2c0a2e1bb6ae349, vars: {}, profile: , target: , version: 1.11.0b3
+[0m06:33:48.450784 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m06:33:48.451198 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m06:33:48.454640 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.stock_crypto_project.output
+- models.stock_crypto_project.input
+[0m06:33:48.472685 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '54c3a832-3718-4cc2-9154-f4c4a1ad503c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb3a7f130>]}
+[0m06:33:48.520863 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m06:33:48.522116 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m06:33:48.536149 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '54c3a832-3718-4cc2-9154-f4c4a1ad503c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb38d6c40>]}
+[0m06:33:48.536470 [info ] [MainThread]: Found 3 models, 2 sources, 492 macros
+[0m06:33:48.536841 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '54c3a832-3718-4cc2-9154-f4c4a1ad503c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9748e2e0>]}
+[0m06:33:48.537540 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m06:33:48.538569 [debug] [MainThread]: Command end result
+[0m06:33:48.554618 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m06:33:48.555528 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m06:33:48.557493 [debug] [MainThread]: Wrote artifact RunExecutionResult to /opt/airflow/dbt/target/run_results.json
+[0m06:33:48.558083 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 0.7848042, "process_in_blocks": "0", "process_kernel_time": 0.250574, "process_mem_max_rss": "187720", "process_out_blocks": "2012", "process_user_time": 2.192774}
+[0m06:33:48.558394 [debug] [MainThread]: Command `dbt test` succeeded at 06:33:48.558345 after 0.79 seconds
+[0m06:33:48.558626 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb757cd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb73f5760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb81cbbe0>]}
+[0m06:33:48.558857 [debug] [MainThread]: Flushing usage events
+[0m06:33:48.901163 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:33:51.674541 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa01fcd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9ffc6be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9f2a2040>]}
+
+
+============================== 06:33:51.678167 | 5c05360f-4053-4261-93a1-f054a90ad540 ==============================
+[0m06:33:51.678167 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m06:33:51.678889 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'warn_error': 'None', 'fail_fast': 'False', 'target_path': 'None', 'log_path': '/opt/airflow/dbt/logs', 'send_anonymous_usage_stats': 'True', 'printer_width': '80', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'version_check': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/opt/airflow/dbt', 'invocation_command': 'dbt snapshot --profiles-dir /opt/airflow/dbt --project-dir /opt/airflow/dbt', 'empty': 'False', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'static_parser': 'True', 'no_print': 'None', 'log_format': 'default', 'partial_parse': 'True', 'quiet': 'False'}
+[0m06:33:52.103710 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5c05360f-4053-4261-93a1-f054a90ad540', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff84261310>]}
+[0m06:33:52.133343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '5c05360f-4053-4261-93a1-f054a90ad540', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff842ef250>]}
+[0m06:33:52.133868 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m06:33:52.198185 [debug] [MainThread]: checksum: e63134dccc1251cfb572caf0e4aa952f030c125ee3634f3bf2c0a2e1bb6ae349, vars: {}, profile: , target: , version: 1.11.0b3
+[0m06:33:52.270504 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m06:33:52.270796 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m06:33:52.274790 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.stock_crypto_project.output
+- models.stock_crypto_project.input
+[0m06:33:52.293412 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5c05360f-4053-4261-93a1-f054a90ad540', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9c6b7130>]}
+[0m06:33:52.345914 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m06:33:52.347012 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m06:33:52.355579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5c05360f-4053-4261-93a1-f054a90ad540', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9c6b7c10>]}
+[0m06:33:52.355897 [info ] [MainThread]: Found 3 models, 2 sources, 492 macros
+[0m06:33:52.356280 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5c05360f-4053-4261-93a1-f054a90ad540', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9c70e910>]}
+[0m06:33:52.356977 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m06:33:52.358160 [debug] [MainThread]: Command end result
+[0m06:33:52.373575 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m06:33:52.374593 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m06:33:52.376724 [debug] [MainThread]: Wrote artifact RunExecutionResult to /opt/airflow/dbt/target/run_results.json
+[0m06:33:52.377373 [debug] [MainThread]: Resource report: {"command_name": "snapshot", "command_success": true, "command_wall_clock_time": 0.73208416, "process_in_blocks": "0", "process_kernel_time": 0.224862, "process_mem_max_rss": "186444", "process_out_blocks": "2012", "process_user_time": 2.069936}
+[0m06:33:52.377688 [debug] [MainThread]: Command `dbt snapshot` succeeded at 06:33:52.377640 after 0.73 seconds
+[0m06:33:52.377910 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa01fcd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9f2eb1c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa00758b0>]}
+[0m06:33:52.378117 [debug] [MainThread]: Flushing usage events
+[0m06:33:52.730681 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:52:09.861451 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa3a7cca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa2d0af10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa38872e0>]}
+
+
+============================== 06:52:09.869187 | e429799b-8bfd-4b78-ab86-963b8f57c577 ==============================
+[0m06:52:09.869187 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m06:52:09.873749 [debug] [MainThread]: running dbt with arguments {'indirect_selection': 'eager', 'log_cache_events': 'False', 'profiles_dir': '/opt/airflow/dbt', 'empty': 'False', 'use_experimental_parser': 'False', 'log_format': 'default', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'target_path': 'None', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'no_print': 'None', 'cache_selected_only': 'False', 'static_parser': 'True', 'quiet': 'False', 'partial_parse': 'True', 'invocation_command': 'dbt run --profiles-dir /opt/airflow/dbt --project-dir /opt/airflow/dbt', 'warn_error': 'None', 'use_colors': 'True', 'introspect': 'True', 'log_path': '/opt/airflow/dbt/logs', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m06:52:11.240853 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e429799b-8bfd-4b78-ab86-963b8f57c577', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa5595880>]}
+[0m06:52:11.327906 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e429799b-8bfd-4b78-ab86-963b8f57c577', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff83aedc10>]}
+[0m06:52:11.329689 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m06:52:11.462095 [debug] [MainThread]: checksum: e63134dccc1251cfb572caf0e4aa952f030c125ee3634f3bf2c0a2e1bb6ae349, vars: {}, profile: , target: , version: 1.11.0b3
+[0m06:52:11.575742 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m06:52:11.576653 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m06:52:11.582469 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.stock_crypto_project.output
+- models.stock_crypto_project.input
+[0m06:52:11.613290 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e429799b-8bfd-4b78-ab86-963b8f57c577', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9feb6130>]}
+[0m06:52:11.726638 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m06:52:11.729530 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m06:52:11.746748 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e429799b-8bfd-4b78-ab86-963b8f57c577', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9fecd190>]}
+[0m06:52:11.747192 [info ] [MainThread]: Found 3 models, 2 sources, 492 macros
+[0m06:52:11.747432 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e429799b-8bfd-4b78-ab86-963b8f57c577', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9fe4c070>]}
+[0m06:52:11.748734 [info ] [MainThread]: 
+[0m06:52:11.749083 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m06:52:11.749305 [info ] [MainThread]: 
+[0m06:52:11.749837 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m06:52:11.753449 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_USER_DB_QUAIL'
+[0m06:52:11.792101 [debug] [ThreadPool]: Using snowflake connection "list_USER_DB_QUAIL"
+[0m06:52:11.792450 [debug] [ThreadPool]: On list_USER_DB_QUAIL: show terse schemas in database USER_DB_QUAIL
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_crypto_profile", "target_name": "dev", "connection_name": "list_USER_DB_QUAIL"} */
+[0m06:52:11.792646 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m06:52:13.926245 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 2.133 seconds
+[0m06:52:13.937697 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_USER_DB_QUAIL, now list_USER_DB_QUAIL_ANALYTICS)
+[0m06:52:13.951356 [debug] [ThreadPool]: Using snowflake connection "list_USER_DB_QUAIL_ANALYTICS"
+[0m06:52:13.952026 [debug] [ThreadPool]: On list_USER_DB_QUAIL_ANALYTICS: show objects in USER_DB_QUAIL.ANALYTICS
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_crypto_profile", "target_name": "dev", "connection_name": "list_USER_DB_QUAIL_ANALYTICS"} */;
+[0m06:52:14.047098 [debug] [ThreadPool]: SQL status: SUCCESS 6 in 0.094 seconds
+[0m06:52:14.055011 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e429799b-8bfd-4b78-ab86-963b8f57c577', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa558a3a0>]}
+[0m06:52:14.064810 [debug] [Thread-1  ]: Began running node model.stock_crypto_project.stg_market_prices
+[0m06:52:14.066022 [info ] [Thread-1  ]: 1 of 3 START sql view model ANALYTICS.stg_market_prices ........................ [RUN]
+[0m06:52:14.070767 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_USER_DB_QUAIL_ANALYTICS, now model.stock_crypto_project.stg_market_prices)
+[0m06:52:14.071519 [debug] [Thread-1  ]: Began compiling node model.stock_crypto_project.stg_market_prices
+[0m06:52:14.081458 [debug] [Thread-1  ]: Writing injected SQL for node "model.stock_crypto_project.stg_market_prices"
+[0m06:52:14.082768 [debug] [Thread-1  ]: Began executing node model.stock_crypto_project.stg_market_prices
+[0m06:52:14.108597 [debug] [Thread-1  ]: Writing runtime sql for node "model.stock_crypto_project.stg_market_prices"
+[0m06:52:14.111153 [debug] [Thread-1  ]: Using snowflake connection "model.stock_crypto_project.stg_market_prices"
+[0m06:52:14.111766 [debug] [Thread-1  ]: On model.stock_crypto_project.stg_market_prices: create or replace   view USER_DB_QUAIL.ANALYTICS.stg_market_prices
+  
+  
+  
+  
+  as (
+    SELECT
+    symbol,
+    date,
+    open,
+    high,
+    low,
+    close,
+    volume,
+    asset_type
+FROM USER_DB_QUAIL.RAW.market_prices
+WHERE close IS NOT NULL
+  )
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_crypto_profile", "target_name": "dev", "node_id": "model.stock_crypto_project.stg_market_prices"} */;
+[0m06:52:14.334183 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 0.222 seconds
+[0m06:52:14.364467 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e429799b-8bfd-4b78-ab86-963b8f57c577', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa53c8040>]}
+[0m06:52:14.365250 [info ] [Thread-1  ]: 1 of 3 OK created sql view model ANALYTICS.stg_market_prices ................... [[32mSUCCESS 1[0m in 0.29s]
+[0m06:52:14.366525 [debug] [Thread-1  ]: Finished running node model.stock_crypto_project.stg_market_prices
+[0m06:52:14.367476 [debug] [Thread-1  ]: Began running node model.stock_crypto_project.final_prediction
+[0m06:52:14.367876 [info ] [Thread-1  ]: 2 of 3 START sql table model ANALYTICS.final_prediction ........................ [RUN]
+[0m06:52:14.368366 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.stock_crypto_project.stg_market_prices, now model.stock_crypto_project.final_prediction)
+[0m06:52:14.368768 [debug] [Thread-1  ]: Began compiling node model.stock_crypto_project.final_prediction
+[0m06:52:14.371873 [debug] [Thread-1  ]: Writing injected SQL for node "model.stock_crypto_project.final_prediction"
+[0m06:52:14.373046 [debug] [Thread-1  ]: Began executing node model.stock_crypto_project.final_prediction
+[0m06:52:14.393091 [debug] [Thread-1  ]: Writing runtime sql for node "model.stock_crypto_project.final_prediction"
+[0m06:52:14.394936 [debug] [Thread-1  ]: Using snowflake connection "model.stock_crypto_project.final_prediction"
+[0m06:52:14.395294 [debug] [Thread-1  ]: On model.stock_crypto_project.final_prediction: create or replace transient table USER_DB_QUAIL.ANALYTICS.final_prediction
+    
+    
+    
+    as (
+
+WITH current_data AS (
+    SELECT 
+        symbol,
+        close as current_price,
+        date
+    FROM USER_DB_QUAIL.ANALYTICS.stg_market_prices
+    QUALIFY ROW_NUMBER() OVER (PARTITION BY symbol ORDER BY date DESC) = 1
+),
+
+forecast_data AS (
+    SELECT 
+        symbol,
+        predicted_close as forecasted_price_14d,
+        forecast_date
+    FROM USER_DB_QUAIL.ANALYTICS.market_forecast_results
+    QUALIFY ROW_NUMBER() OVER (PARTITION BY symbol ORDER BY forecast_date DESC) = 1
+)
+
+SELECT 
+    c.symbol,
+    c.current_price,
+    f.forecasted_price_14d,
+    ((f.forecasted_price_14d - c.current_price) / c.current_price) * 100 as predicted_return_pct,
+    f.forecast_date
+FROM current_data c
+JOIN forecast_data f ON c.symbol = f.symbol
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_crypto_profile", "target_name": "dev", "node_id": "model.stock_crypto_project.final_prediction"} */;
+[0m06:52:15.947678 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 1.551 seconds
+[0m06:52:15.959194 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e429799b-8bfd-4b78-ab86-963b8f57c577', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9cd3cdf0>]}
+[0m06:52:15.960683 [info ] [Thread-1  ]: 2 of 3 OK created sql table model ANALYTICS.final_prediction ................... [[32mSUCCESS 1[0m in 1.59s]
+[0m06:52:15.967086 [debug] [Thread-1  ]: Finished running node model.stock_crypto_project.final_prediction
+[0m06:52:15.967872 [debug] [Thread-1  ]: Began running node model.stock_crypto_project.market_analysis
+[0m06:52:15.968707 [info ] [Thread-1  ]: 3 of 3 START sql view model ANALYTICS.market_analysis .......................... [RUN]
+[0m06:52:15.969975 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.stock_crypto_project.final_prediction, now model.stock_crypto_project.market_analysis)
+[0m06:52:15.970343 [debug] [Thread-1  ]: Began compiling node model.stock_crypto_project.market_analysis
+[0m06:52:15.974609 [debug] [Thread-1  ]: Writing injected SQL for node "model.stock_crypto_project.market_analysis"
+[0m06:52:15.975980 [debug] [Thread-1  ]: Began executing node model.stock_crypto_project.market_analysis
+[0m06:52:15.978497 [debug] [Thread-1  ]: Writing runtime sql for node "model.stock_crypto_project.market_analysis"
+[0m06:52:15.979689 [debug] [Thread-1  ]: Using snowflake connection "model.stock_crypto_project.market_analysis"
+[0m06:52:15.979974 [debug] [Thread-1  ]: On model.stock_crypto_project.market_analysis: create or replace   view USER_DB_QUAIL.ANALYTICS.market_analysis
+  
+  
+  
+  
+  as (
+    WITH market_data AS (
+    SELECT * FROM USER_DB_QUAIL.ANALYTICS.stg_market_prices
+),
+
+calculations AS (
+    SELECT
+        symbol,
+        date,
+        close,
+        asset_type,
+        
+        -- Calculate 14-Day Return
+        (close - LAG(close, 14) OVER (PARTITION BY symbol ORDER BY date)) 
+        / NULLIF(LAG(close, 14) OVER (PARTITION BY symbol ORDER BY date), 0) as return_14d,
+
+        -- Calculate 30-Day Volatility (Risk)
+        STDDEV(close) OVER (
+            PARTITION BY symbol 
+            ORDER BY date 
+            ROWS BETWEEN 29 PRECEDING AND CURRENT ROW
+        ) as volatility_30d
+        
+    FROM market_data
+)
+
+SELECT * FROM calculations
+WHERE date >= DATEADD(year, -1, CURRENT_DATE())
+ORDER BY date DESC, symbol
+  )
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_crypto_profile", "target_name": "dev", "node_id": "model.stock_crypto_project.market_analysis"} */;
+[0m06:52:16.361130 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 0.380 seconds
+[0m06:52:16.373111 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e429799b-8bfd-4b78-ab86-963b8f57c577', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9fdbe5e0>]}
+[0m06:52:16.376766 [info ] [Thread-1  ]: 3 of 3 OK created sql view model ANALYTICS.market_analysis ..................... [[32mSUCCESS 1[0m in 0.40s]
+[0m06:52:16.379823 [debug] [Thread-1  ]: Finished running node model.stock_crypto_project.market_analysis
+[0m06:52:16.392892 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m06:52:16.393738 [debug] [MainThread]: Connection 'model.stock_crypto_project.market_analysis' was left open.
+[0m06:52:16.394201 [debug] [MainThread]: On model.stock_crypto_project.market_analysis: Close
+[0m06:52:16.557373 [info ] [MainThread]: 
+[0m06:52:16.558002 [info ] [MainThread]: Finished running 1 table model, 2 view models in 0 hours 0 minutes and 4.81 seconds (4.81s).
+[0m06:52:16.558836 [debug] [MainThread]: Command end result
+[0m06:52:16.582669 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m06:52:16.585708 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m06:52:16.591423 [debug] [MainThread]: Wrote artifact RunExecutionResult to /opt/airflow/dbt/target/run_results.json
+[0m06:52:16.591726 [info ] [MainThread]: 
+[0m06:52:16.592262 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m06:52:16.592536 [info ] [MainThread]: 
+[0m06:52:16.592871 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=3
+[0m06:52:16.599131 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 6.7860684, "process_in_blocks": "0", "process_kernel_time": 1.417596, "process_mem_max_rss": "207124", "process_out_blocks": "2065", "process_user_time": 3.301835}
+[0m06:52:16.600037 [debug] [MainThread]: Command `dbt run` succeeded at 06:52:16.599959 after 6.79 seconds
+[0m06:52:16.600528 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa3a7cca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa4e9e670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffa4757190>]}
+[0m06:52:16.600832 [debug] [MainThread]: Flushing usage events
+[0m06:52:17.016086 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:52:19.856708 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffba73cca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb97e31c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb97e3160>]}
+
+
+============================== 06:52:19.861865 | 439b4d5a-5d19-4dda-970a-08fc7eafa36e ==============================
+[0m06:52:19.861865 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m06:52:19.866358 [debug] [MainThread]: running dbt with arguments {'log_path': '/opt/airflow/dbt/logs', 'no_print': 'None', 'indirect_selection': 'eager', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True', 'log_cache_events': 'False', 'static_parser': 'True', 'cache_selected_only': 'False', 'invocation_command': 'dbt test --profiles-dir /opt/airflow/dbt --project-dir /opt/airflow/dbt', 'printer_width': '80', 'debug': 'False', 'version_check': 'True', 'warn_error': 'None', 'send_anonymous_usage_stats': 'True', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'target_path': 'None', 'log_format': 'default', 'profiles_dir': '/opt/airflow/dbt', 'partial_parse': 'True', 'use_colors': 'True'}
+[0m06:52:20.300765 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '439b4d5a-5d19-4dda-970a-08fc7eafa36e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9a7a1340>]}
+[0m06:52:20.329925 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '439b4d5a-5d19-4dda-970a-08fc7eafa36e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9a7a12b0>]}
+[0m06:52:20.330399 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m06:52:20.403418 [debug] [MainThread]: checksum: e63134dccc1251cfb572caf0e4aa952f030c125ee3634f3bf2c0a2e1bb6ae349, vars: {}, profile: , target: , version: 1.11.0b3
+[0m06:52:20.471855 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m06:52:20.472225 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m06:52:20.475564 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.stock_crypto_project.output
+- models.stock_crypto_project.input
+[0m06:52:20.493360 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '439b4d5a-5d19-4dda-970a-08fc7eafa36e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb6c7f130>]}
+[0m06:52:20.544897 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m06:52:20.546649 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m06:52:20.569946 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '439b4d5a-5d19-4dda-970a-08fc7eafa36e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb6ad7b50>]}
+[0m06:52:20.570470 [info ] [MainThread]: Found 3 models, 2 sources, 492 macros
+[0m06:52:20.570926 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '439b4d5a-5d19-4dda-970a-08fc7eafa36e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb6aae070>]}
+[0m06:52:20.571758 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m06:52:20.572886 [debug] [MainThread]: Command end result
+[0m06:52:20.593315 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m06:52:20.594536 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m06:52:20.596837 [debug] [MainThread]: Wrote artifact RunExecutionResult to /opt/airflow/dbt/target/run_results.json
+[0m06:52:20.597520 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 0.7708086, "process_in_blocks": "0", "process_kernel_time": 0.267311, "process_mem_max_rss": "187276", "process_out_blocks": "2012", "process_user_time": 2.161519}
+[0m06:52:20.597908 [debug] [MainThread]: Command `dbt test` succeeded at 06:52:20.597844 after 0.77 seconds
+[0m06:52:20.598247 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffba73cca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffba5c11c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffbb407bb0>]}
+[0m06:52:20.598525 [debug] [MainThread]: Flushing usage events
+[0m06:52:20.987670 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:52:23.986244 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9987dc70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff996f5760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff98958df0>]}
+
+
+============================== 06:52:23.990298 | 5f6b0762-1b4a-4517-aafd-4fceb5973ea9 ==============================
+[0m06:52:23.990298 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m06:52:23.992029 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'use_colors': 'True', 'partial_parse': 'True', 'static_parser': 'True', 'quiet': 'False', 'profiles_dir': '/opt/airflow/dbt', 'log_cache_events': 'False', 'warn_error': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'log_path': '/opt/airflow/dbt/logs', 'printer_width': '80', 'debug': 'False', 'version_check': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'fail_fast': 'False', 'invocation_command': 'dbt snapshot --profiles-dir /opt/airflow/dbt --project-dir /opt/airflow/dbt', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'write_json': 'True', 'empty': 'False', 'use_experimental_parser': 'False'}
+[0m06:52:24.624573 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5f6b0762-1b4a-4517-aafd-4fceb5973ea9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff7d8b9d30>]}
+[0m06:52:24.667719 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '5f6b0762-1b4a-4517-aafd-4fceb5973ea9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff7d8b9970>]}
+[0m06:52:24.669024 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m06:52:24.820748 [debug] [MainThread]: checksum: e63134dccc1251cfb572caf0e4aa952f030c125ee3634f3bf2c0a2e1bb6ae349, vars: {}, profile: , target: , version: 1.11.0b3
+[0m06:52:24.893539 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m06:52:24.893891 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m06:52:24.897645 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.stock_crypto_project.input
+- models.stock_crypto_project.output
+[0m06:52:24.916329 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5f6b0762-1b4a-4517-aafd-4fceb5973ea9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff95cb8130>]}
+[0m06:52:24.967568 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m06:52:24.970120 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m06:52:24.983659 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5f6b0762-1b4a-4517-aafd-4fceb5973ea9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff95cb8520>]}
+[0m06:52:24.984113 [info ] [MainThread]: Found 3 models, 2 sources, 492 macros
+[0m06:52:24.984519 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5f6b0762-1b4a-4517-aafd-4fceb5973ea9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff95d2aa90>]}
+[0m06:52:24.985529 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m06:52:24.986730 [debug] [MainThread]: Command end result
+[0m06:52:25.002991 [debug] [MainThread]: Wrote artifact WritableManifest to /opt/airflow/dbt/target/manifest.json
+[0m06:52:25.003939 [debug] [MainThread]: Wrote artifact SemanticManifest to /opt/airflow/dbt/target/semantic_manifest.json
+[0m06:52:25.006115 [debug] [MainThread]: Wrote artifact RunExecutionResult to /opt/airflow/dbt/target/run_results.json
+[0m06:52:25.006893 [debug] [MainThread]: Resource report: {"command_name": "snapshot", "command_success": true, "command_wall_clock_time": 1.0528953, "process_in_blocks": "0", "process_kernel_time": 0.31936, "process_mem_max_rss": "186756", "process_out_blocks": "2012", "process_user_time": 2.399219}
+[0m06:52:25.007379 [debug] [MainThread]: Command `dbt snapshot` succeeded at 06:52:25.007312 after 1.05 seconds
+[0m06:52:25.007666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9987dc70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9a5a2910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff95ba8e80>]}
+[0m06:52:25.007894 [debug] [MainThread]: Flushing usage events
+[0m06:52:25.360032 [debug] [MainThread]: An error was encountered while trying to flush usage events
